@@ -1,0 +1,283 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*                                              Non Generated CSS                                     */
+
+
+
+/*                                              One.js CSS                                           */
+
+body{
+  background-color: #F6E9F2 !important;
+}
+
+/* Left div */
+
+.left_div{
+  width: 70vw;
+  float: left;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+
+.left_top{
+  height: 28vw;
+  border: 2px solid #A684A9;
+  background-color: #b19ebd;;
+
+}
+
+.left_mid{
+  margin-top: 2%;
+}
+
+.left_bottom{
+  height: 12vw;
+  border: 2px solid #A684A9;
+}
+.mid_div{
+  width: 6vw;
+}
+/* Right div */
+
+.right_div{
+  width: 30vw;
+  float: right;
+  margin-top: 5vw;
+  margin-right: 5vw;
+}
+
+.right_top{
+  height: 13vw;
+  border: 2px solid #A684A9;
+  background-color: #b19ebd;
+}
+
+.right_mid{
+  height: 13vw;
+  border: 2px solid #A684A9;
+  background-color: #b19ebd;
+}
+
+.middle{
+  margin-top:1.8vw;
+}
+.middle_bottom{
+  margin-top: 5%;
+}
+.right_bottom{
+  border: 2px solid #A684A9;
+  height: 12vw;
+  background-color: #b19ebd;
+}
+
+/* User Submitted Image */
+#user_prof{
+  display: block;
+  width: 17vw;
+  height: 17vw;
+  margin-left: 8vw;
+  
+  border-radius: 50%;
+}
+
+
+/* Text Area */
+#text_ar_left{
+  
+  display: block;
+  margin-left: 30vw;
+  height: 10vw;
+  width: 20vw;
+  
+}
+
+/* Text area and profile row */
+.top_left_upper{
+  position: absolute;
+  
+}
+
+.top_right_upper{
+  position: absolute;
+  margin-top: 5vw;
+}
+
+.description_submission{
+  
+  margin-top: 1vw;
+  margin-left: 30vw;
+}
+
+/* Hidden div for biography */
+.bio_hidden{
+  font-size: 1vw;
+  width: 26vw;
+  position: absolute;
+  margin-left: 33vw;
+  margin-top: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: black;
+  ;
+}
+
+/* Short Description */
+#text_ar_left_bottom{
+  position: absolute;
+  margin-top: 21vw;
+  margin-left: 15vw;
+  height: 6vw;
+  width: 22vw;
+}
+
+#short_desc_sub{
+  position: absolute;
+  margin-top: 25vw;
+  margin-left: 40vw;
+
+}
+
+#short_desc_hidden{
+  font-size: 3vw;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 22vw;
+  margin-left: 11vw;
+  font-size: 2.5vw;
+  color: black;
+}
+
+
+
+/*                                              Two.js CSS                                                */
+
+/* Carousel Div */
+.main_car{
+  background-color: #b19ebd;;
+  height: 100%;
+
+}
+
+.first_slide{
+  margin-top: 1vw;
+  
+}
+
+.btn_siz{
+  font-size: 1vw !important;
+}
+
+.tech_skills{
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+/*                                              Three.js CSS                                                */
+
+/* Question styling */
+#Question_number{
+  font-size: 2vw;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+/* Description styling */
+#Question_desc{
+  text-align: center;
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+}
+
+/* Answer styling */
+.Question_answer{
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+
+/* Result styling */
+#result{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 2vw ;
+}
+
+
+
+/*                                              Four.js CSS                                                */
+
+/* Question styling */
+#Question_literacy{
+  text-align: center;
+  font-size: 2vw;
+}
+
+/* Prompt styling */
+#Question_literacy_prompt{
+  text-align: center;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+/* Submit styling */
+#div_sub{
+  text-align: center;
+}
+
+/* Literacy styling */
+#literacy_review{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 2vw ;
+}
+
+
+/*                                              Five.js CSS                                                */
+
+/* Change color of box  */
+#change_color{
+  text-align: center;
+  font-size: 2vw;
+  height: 100%;
+  
+}
